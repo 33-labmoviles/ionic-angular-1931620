@@ -9,71 +9,91 @@ export class Tab1Page {
 
   constructor() {}
 
-  alumnos = [{
-    "Nombre" : "Luis Enrique",
-    "Apellido" : "Martínez Galván",
-    "Matricula" : "1961086"
+  alumnos = [
+    {
+      "nombre": "Abraham",
+      "apellido": "Ramirez",
+      "matricula": "ABC123"
     },
-      {
-    "Nombre" : "Abraham ",
-    "Apellido":"Ramirez",
-    "Matricula":"123456"
-      },
-      {
-    "Nombre":"Brian",
-    "Apellido":"Esquivel",
-    "Matricula":"124699"
-      },
-      {
-    "Nombre":"Diego",
-    "Apellido":"Davila",
-    "Matricula":"2347448"
-      },
-      {
-    "Nombre":"Diego",
-    "Apellido":"Jasso",
-    "Matricula":"1985446"
-      },
-      {
-    "Nombre":"Julio",
-    "Apellido":"Manuel",
-    "Matricula":"1092744"
-      },
-      {
-    "Nombre":"Luis",
-    "Apellido":"Armando villanuevas",
-    "Matricula":"1756948"
-      },
-      {
-    "Nombre": "Luis",
-    "Apellido":"Otiniel Tamez",
-    "Matricula":"17458893"
-      },
-      {
-    "Nombre": "Rogel ",
-    "Apellido":"Axel",
-    "Matricula":"1958647"
-      },
-      {
-    "Nombre":"Luis ",
-    "Apellido":"Armando",
-    "Matricula":"1234123"
-      },
-      {
-    "Nombre": "Enrique",
-    "Apellido": "Santillan",
-    "Matricula": "1126479"
-      },
-      {
-    "Nombre": "Sergio",
-    "Apellido": "Gutierrez",
-    "Matricula": "2468897"
-      },
-      {
-    "Nombre": "Omar",
-    "Apellido": "Garza",
-    "Matricula": "1975842"
-      }
+    {
+      "nombre": "Aylin",
+      "apellido": "Demecti",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Brian",
+      "apellido": "Esquivel",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Diego",
+      "apellido": "Davila",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Diego",
+      "apellido": "Jasso",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Julio",
+      "apellido": "Luevano",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Luis Armando",
+      "apellido": "Villanueva",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Luis Otoniel",
+      "apellido": "Tamez",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Rogel Axel",
+      "apellido": "Guel",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Sergio",
+      "apellido": "Gutierrez",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Omar",
+      "apellido": "Garza",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Bryan",
+      "apellido": "Castillo",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Ricardo",
+      "apellido": "Rocha",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Emiliano",
+      "apellido": "Rodriguez",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Luis Enrique",
+      "apellido": "Martinez Galvan",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Enrique",
+      "apellido": "Santillan",
+      "matricula": "ABC123"
+    },
+    {
+      "nombre": "Juan Antonio",
+      "apellido": "Torres Lozano",
+      "matricula": "ABC123"
+    }
   ];
-
 }
