@@ -11,89 +11,89 @@ export class Tab1Page {
 
   alumnos = [
     {
-      "nombre": "Abraham",
-      "apellido": "Ramirez",
-      "matricula": "ABC123"
+      "Nombre": "Abraham",
+      "Apellido": "Ramirez",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Aylin",
-      "apellido": "Demecti",
-      "matricula": "ABC123"
+      "Nombre": "Aylin",
+      "Apellido": "Demecti",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Brian",
-      "apellido": "Esquivel",
-      "matricula": "ABC123"
+      "Nombre": "Brian",
+      "Apellido": "Esquivel",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Diego",
-      "apellido": "Davila",
-      "matricula": "ABC123"
+      "Nombre": "Diego",
+      "Apellido": "Davila",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Diego",
-      "apellido": "Jasso",
-      "matricula": "ABC123"
+      "Nombre": "Diego",
+      "Apellido": "Jasso",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Julio",
-      "apellido": "Luevano",
-      "matricula": "ABC123"
+      "Nombre": "Julio",
+      "Apellido": "Luevano",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Luis Armando",
-      "apellido": "Villanueva",
-      "matricula": "ABC123"
+      "Nombre": "Luis Armando",
+      "Apellido": "Villanueva",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Luis Otoniel",
-      "apellido": "Tamez",
-      "matricula": "ABC123"
+      "Nombre": "Luis Otoniel",
+      "Apellido": "Tamez",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Rogel Axel",
-      "apellido": "Guel",
-      "matricula": "ABC123"
+      "Nombre": "Rogel Axel",
+      "Apellido": "Guel",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Sergio",
-      "apellido": "Gutierrez",
-      "matricula": "ABC123"
+      "Nombre": "Sergio",
+      "Apellido": "Gutierrez",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Omar",
-      "apellido": "Garza",
-      "matricula": "ABC123"
+      "Nombre": "Omar",
+      "Apellido": "Garza",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Bryan",
-      "apellido": "Castillo",
-      "matricula": "ABC123"
+      "Nombre": "Bryan",
+      "Apellido": "Castillo",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Ricardo",
-      "apellido": "Rocha",
-      "matricula": "ABC123"
+      "Nombre": "Ricardo",
+      "Apellido": "Rocha",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Emiliano",
-      "apellido": "Rodriguez",
-      "matricula": "ABC123"
+      "Nombre": "Emiliano",
+      "Apellido": "Rodriguez",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Luis Enrique",
-      "apellido": "Martinez Galvan",
-      "matricula": "ABC123"
+      "Nombre": "Luis Enrique",
+      "Apellido": "Martinez Galvan",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Enrique",
-      "apellido": "Santillan",
-      "matricula": "ABC123"
+      "Nombre": "Enrique",
+      "Apellido": "Santillan",
+      "Matricula": "ABC123"
     },
     {
-      "nombre": "Juan Antonio",
-      "apellido": "Torres Lozano",
-      "matricula": "ABC123"
+      "Nombre": "Juan Antonio",
+      "Apellido": "Torres Lozano",
+      "Matricula": "ABC123"
     }
   ];
 }
