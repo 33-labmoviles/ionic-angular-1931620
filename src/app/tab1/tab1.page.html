@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Asistencia de Alumnos
+      Tab 1
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,65 +9,69 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1 page</ion-title>
+      <ion-title size="large">Asistencia de alumnos</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<ion-grid>
   <ion-row>
     <ion-col size="2">
-        <p>Nombre: </p>
+      Nombre:
     </ion-col>
-    <ion-col>
-       <p></p> <ion-input placeholder="Ejemplo: Luis Enrique" [(ngModel)]="nombre" class= "campo-texto"></ion-input>
-       </ion-col>
-</ion-row>
-<ion-row>
-  <ion-col size="2">
-    <p>Apellido: </p>
-</ion-col>
-<ion-col>
-   <p></p> <ion-input placeholder="Ejemplo: Martinez Galvan" [(ngModel)]="apellido"></ion-input>
-   </ion-col>
-</ion-row>
-<ion-row>
-   <ion-col size="2">
-       Matricula: 
-   </ion-col>
-<ion-col size="2">
-   <ion-input placeholder="Ejemplo: 1961086" [(ngModel)]="matricula" ></ion-input>
-</ion-col>
-</ion-row>
-
-<ion-row>
+    <ion-col size="10">
+        <ion-input  placeholder="Juanito" [(ngModel)]="nombre" class="campo-texto"></ion-input>
+    </ion-col>
+    <ion-col size="2">
+      Apellido:
+    </ion-col>
+    <ion-col size="10">
+      <ion-input placeholder="Perez" [(ngModel)]="apellido" class="campo-texto"></ion-input>
+    </ion-col>
+    <ion-col size="2">
+      Matricula:
+    </ion-col>
+    <ion-col size="10">
+      <ion-input placeholder="ABC123" [(ngModel)]="matricula" class="campo-texto"></ion-input>
+    </ion-col>
+    
+    <ion-col size="12">
+      <ion-button (click)="agregarAlumno()">Agregar Alumno</ion-button>
+    </ion-col>
+      
+  </ion-row>
+  <ion-row  *ngFor="let alumno of alumnos">
    <ion-col>
-       <ion-button color="success" (click)="newAlumno()">Agregar nuevo alumno</ion-button>
+    <ion-card>
+      <ion-card-content>
+        <ion-grid>
+          <ion-row>
+            <ion-col size="6">
+              <ion-grid>
+                <ion-row>
+                  <ion-col>Nombre:</ion-col>
+                  <ion-col><strong>{{alumno.nombre}}</strong></ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col>Apellido:</ion-col>
+                  <ion-col><strong>{{alumno.apellido}}</strong></ion-col>
+                </ion-row>
+                <ion-row>
+                  <ion-col>Matricula:</ion-col>
+                  <ion-col><strong>{{alumno.matricula}}</strong></ion-col>
+                </ion-row>
+              </ion-grid>
+            </ion-col>
+            <ion-col class="alumno-foto">
+              <img src="assets/hola/hola.png" alt="" width="150px">
+            </ion-col>
+          </ion-row>
+         
+        </ion-grid>
+      </ion-card-content>
+    </ion-card>
    </ion-col>
-</ion-row>
-  <ion-grid>
-    <ion-row  *ngFor="let alumno of alumnos">
-     <ion-col>
-      <ion-card>
-        <ion-card-content>
-          <ion-grid>
-            <ion-row>
-              <ion-col size="6">
-                <p><strong>Nombre:</strong> {{alumno.Nombre}}</p>
-                <p><strong>Apellido:</strong> {{alumno.Apellido}}</p>
-                <p><strong>Matricula:</strong> {{alumno.Matricula}}</p>
-                Asistencia:
-                <ion-icon name="close-circle-outline"></ion-icon>
-                <ion-icon name="checkbox-outline"> </ion-icon>
-                
-              </ion-col>
-              <ion-col class="facultad">
-                <img src="assets/hola/hola.png" alt="" width="150px" >
-              </ion-col>
-            </ion-row>
-          </ion-grid>
-        </ion-card-content>
-      </ion-card>
-     </ion-col>
-    </ion-row>
-  </ion-grid>
+ 
+  </ion-row>
+</ion-grid>
+  
 </ion-content>
