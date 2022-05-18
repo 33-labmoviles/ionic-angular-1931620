@@ -15,104 +15,104 @@ export class AlumnosComponent implements OnInit {
     {
       "nombre": "Abraham",
       "apellido": "Ramirez",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "fdgfgfd",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Aylin",
       "apellido": "Demecti",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "ABhgfhC123",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Brian",
       "apellido": "Esquivel",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "sadasds",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Diego",
       "apellido": "Davila",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "dsadsadsad",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Diego",
       "apellido": "Jasso",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "ABC1dsadsa23",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Julio",
       "apellido": "Luevano",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "dsadsadsdsd",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Luis Armando",
       "apellido": "Villanueva",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "dsdsadsadsada344",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Luis Otoniel",
       "apellido": "Tamez",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "fdsfdsf3",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Rogel Axel",
       "apellido": "Guel",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "dsfdsf546",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Sergio",
       "apellido": "Gutierrez",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "fdsfds3",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Omar",
       "apellido": "Garza",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "dsfdsfdsf343",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Bryan",
       "apellido": "Castillo",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "dsfdsf3434",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Ricardo",
       "apellido": "Rocha",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "fsdfdsf435",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Emiliano",
       "apellido": "Rodriguez",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "fdsfds4543",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Luis Enrique",
       "apellido": "Martinez Galvan",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "fsdf2",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Enrique",
       "apellido": "Santillan",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "gfdg54354",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     },
     {
       "nombre": "Juan Antonio",
       "apellido": "Torres Lozano",
-      "matricula": "ABC123",
-      "imagen": "assets/hola/hola.png"
+      "matricula": "fdsfds5435",
+      "imagen": "assets/imagenes/logo-fcfm.jpeg"
     }
   ];
 
