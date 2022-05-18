@@ -12,7 +12,7 @@ export class AlumnoDetalleComponent implements OnInit {
   constructor(
     private ruta: ActivatedRoute,
     public actionSheetC: ActionSheetController) { }
-
+  
 
   ngOnInit() {
     this.obtenerDetalleAlumno(this.matricula);
@@ -125,10 +125,10 @@ export class AlumnoDetalleComponent implements OnInit {
 
   alumnoDetalle: any = {}
   matricula: string = this.ruta.snapshot.params.id;
-
+  
   obtenerDetalleAlumno(matricula: string): any {
     console.log(matricula);
-
+    
 
     //AQUI BUSCA EN EL ARREGLO EL ALUMNO CON LA MATRICULA
     for(let i = 0; i < this.alumnos.length; i++){
