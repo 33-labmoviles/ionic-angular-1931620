@@ -1,5 +1,7 @@
-export interface Alumno {
-    nombre: string;
-    apellido: string;
-    matricula: string;
-  }
+export class Alumno {
+  constructor(
+      nombre: string,
+      apellido: string,
+      matricula: string
+  ) {}
+}
