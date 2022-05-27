@@ -19,9 +19,18 @@ alumnos : any = [];
 getAlumnos() {
   return this.http.get('https://ionic-angular-1931620-33-default-rtdb.firebaseio.com/alumnos.json').subscribe(res => {
 
-  this.alumnos = res;
-    //console.log(res);
-  })
+ //this.alumnos = res;
+
+  const alumnosRes: any = res; //this.alumnos = res;
+
+  console.log(alumnosRes, "alumnosRes")
+  const alumnosArray = Object.keys(res).forEach((key: any) => {
+       
+        (this.alumnos).push(alumnosRes[key]);
+
+        console.log(this.alumnos, "alumnos")
+      })
+  });
 }
 
 

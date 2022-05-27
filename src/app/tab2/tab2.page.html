@@ -15,10 +15,10 @@
 
  
 
- <app-alumnos></app-alumnos>
+
 
  <ion-list mode="ios">
-  <ion-item-sliding   *ngFor="let alumno of alumnos" >
+  <ion-item-sliding   *ngFor="let alumno of alumnos; let i = index;" >
     <ion-item-options side="start">
       <ion-item-option color="success">
         <ion-icon name="heart"></ion-icon>
@@ -36,7 +36,7 @@
         <ion-img src="assets/hola/hola.png"></ion-img>
       </ion-avatar>
       
-      <ion-label>
+      <ion-label> {{i}}
 
         <h2><strong>{{alumno.nombre}}</strong> </h2>
       </ion-label>
